@@ -1,0 +1,24 @@
+{
+  "name": "pkg-env",
+  "version": "0.0.0",
+  "description": "Returns an object with current NODE_ENV, package version, and several booleans about the environment",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm test",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gswalden/blank.git"
+  },
+  "author": "Greg Walden <hi@gsw.nyc>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "get-env": "^0.4.0",
+    "load-pkg": "^3.0.1"
+  }
+}
