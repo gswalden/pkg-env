@@ -13,6 +13,10 @@ describe('pkg-env tests', () => {
     pkgEnv.should.be.an('object');
   });
 
+  it('env should be accurate', () => {
+    pkgEnv.env.should.eq(process.env.NODE_ENV);
+  });
+
   it('booleans should reflect "test" environment', () => {
     pkgEnv.isDev.should.be.false;
     pkgEnv.isStaging.should.be.false;
