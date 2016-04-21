@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/gswalden/blank.git"
+    "url": "git+ssh://git@github.com/gswalden/pkg-env.git"
   },
   "author": "Greg Walden <hi@gsw.nyc>",
   "license": "ISC",
