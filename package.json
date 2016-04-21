@@ -1,6 +1,6 @@
 {
   "name": "pkg-env",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns an object with current NODE_ENV, package version, and several booleans about the environment",
   "main": "index.js",
   "scripts": {
