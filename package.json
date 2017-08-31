@@ -18,7 +18,7 @@
     "mocha": "^2.3.4"
   },
   "dependencies": {
-    "get-env": "^0.4.0",
+    "get-env": "^0.5.10",
     "load-pkg": "^3.0.1"
   },
   "files": [
